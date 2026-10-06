@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary-container":"#745c00","on-secondary":"#ffffff","background":"#fff8f4","error-container":"#ffdad6","on-tertiary-container":"#433639","outline-variant":"#d4c3ba","inverse-on-surface":"#f7efea","on-secondary-fixed":"#241a00","surface-tint":"#79573d","tertiary-fixed":"#f2dde1","on-error-container":"#93000a","on-error":"#ffffff","surface-container-highest":"#e9e1dc","on-primary-fixed-variant":"#5f4028","secondary-fixed-dim":"#e9c349","on-surface":"#1e1b18","surface-variant":"#e9e1dc","on-secondary-fixed-variant":"#574500","outline":"#82746c","surface":"#fff8f4","on-primary-fixed":"#2d1603","primary-fixed":"#ffdcc4","surface-container":"#f4ece7","inverse-surface":"#33302c","on-background":"#1e1b18","on-primary":"#ffffff","surface-dim":"#e0d9d3","on-tertiary":"#ffffff","surface-container-low":"#faf2ed","surface-bright":"#fff8f4","surface-container-lowest":"#ffffff","surface-container-high":"#eee7e1","on-surface-variant":"#50453d","primary-fixed-dim":"#ebbe9e","tertiary-fixed-dim":"#d5c2c6","on-tertiary-fixed-variant":"#514347","tertiary":"#6a5b5e","inverse-primary":"#ebbe9e","primary":"#79573d","on-tertiary-fixed":"#24191c","primary-container":"#c59b7d","secondary-container":"#fed65b","tertiary-container":"#b19fa3","error":"#ba1a1a","secondary":"#735c00","on-primary-container":"#50331c","secondary-fixed":"#ffe088"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-md":"1.25rem","space-xl":"3.5rem","space-xs":"0.375rem","space-lg":"2rem","gutter":"1.5rem","space-sm":"0.75rem","margin":"1.5rem"},fontFamily:{"title-md":["Noto Sans"],"headline-sm":["Playfair Display"],"body-sm":["Noto Sans"],"body-lg":["Noto Sans"],"headline-md":["Playfair Display"],"label-sm":["Noto Sans"],"display-hero":["Playfair Display"],"body-md":["Noto Sans"],"headline-lg":["Playfair Display"],"label-md":["Noto Sans"],"title-lg":["Noto Sans"],"headline-lg-mobile":["Playfair Display"],"display-hero-mobile":["Playfair Display"]},fontSize:{"title-md":["16px",{lineHeight:"24px",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"500"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"body-lg":["17px",{lineHeight:"28px",fontWeight:"400"}],"headline-md":["26px",{lineHeight:"34px",fontWeight:"500"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"500"}],"display-hero":["56px",{lineHeight:"68px",letterSpacing:"-0.02em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"46px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.08em",fontWeight:"500"}],"title-lg":["18px",{lineHeight:"26px",fontWeight:"600"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"600"}],"display-hero-mobile":["38px",{lineHeight:"48px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed right-0 top-0 h-full w-72 bg-surface-container-low z-50 flex flex-col pt-6 pb-8 shadow-[0_4px_24px_rgba(74,53,41,0.04)]"><div class="px-6 mb-8 flex items-center gap-3"><img alt="Masar Al-Amal Al-Hurr Salon Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xpq2OlsMjn2dVV4QBJ6qeHfdJAQssPcApVNxR2rGnBoZOLRlaAjG2AyGd6H_4_2u0ZOK-XEo_0M7mZOOo8b1ToYaKko34PMslUewsH93uAh1Ub936cTKUZ8VqKW7lceok6eUjZORb1H7tclqOUI44m-So1NvqGMRfzYhqtfUFGZMPgrLv4nuVAY5s5_0ffvtLnkBIDalZT6_ZPODhWIIuyap5r3_HcsY0mtaCx8MvwqtpwIWZZDJF4nEFW"/><div class="flex flex-col"><span class="font-title-md text-title-md text-primary font-bold">إدارة الصالون</span><span class="font-label-sm text-label-sm text-tertiary">لوحة التحكم والمواعيد</span></div></div><nav class="flex-1 px-4 space-y-1.5" data-active-classes="bg-primary-container text-on-primary font-bold"><a aria-current="page" class="flex items-center gap-3 px-4 py-3 rounded-xl transition-all bg-primary-container text-on-primary font-bold" data-path="admin-overview" href="#"><span class="material-symbols-outlined text-[22px]">dashboard</span>نظرة عامة</a><a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="admin-appointments" href="#"><span class="material-symbols-outlined text-[22px]">calendar_month</span>جدول المواعيد والغرف</a><a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="admin-services" href="#"><span class="material-symbols-outlined text-[22px]">spa</span>الخدمات والباقات</a><a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="admin-specialists" href="#"><span class="material-symbols-outlined text-[22px]">badge</span>الأخصائيات وجداول العمل</a><a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="admin-crm" href="#"><span class="material-symbols-outlined text-[22px]">diversity_1</span>سجل العميلات VIP</a><a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md mt-6 pt-4" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">storefront</span>العودة للموقع الرئيسي</a></nav><div class="px-4 pt-4"><div class="p-4 rounded-xl bg-surface-container flex items-center justify-between"><div class="flex items-center gap-2"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH5MJNZEqgrE6xJNMCRh2E78lh0IVGyy1Z5Wr0qkfOimuwjzUetf-8ty9d2PvCh-p_ZZ1pPnGbpk6NoR4gQ74iTh6_RBi5pm-VG7LdcC-UtxUcsITreGqRnyk7EQLrf1zqxyt_T6FQUiYm5zSb6HD69GSS--iREEhNVgiDMJnYJyeXxYF7hqdysL9YIjWS4tw-L19rioYvKtLgU6OcAdl2OOFyq-qT8zhhJVgJD84_heUH-K_hot02bQ"/><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface font-semibold">المديرة العامة</span><span class="font-label-sm text-label-sm text-tertiary">فرع الرياض</span></div></div><a aria-label="تسجيل الخروج" class="text-tertiary hover:text-error transition-colors" data-path="auth-login" href="#"><span class="material-symbols-outlined text-[20px]">logout</span></a></div></div></aside><div class="pr-72"><header class="fixed top-0 right-72 left-0 h-16 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(74,53,41,0.03)] z-40 flex items-center justify-between px-8"><div class="flex items-center gap-3"><span class="material-symbols-outlined text-outline text-[20px]">search</span><input class="bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-64 md:w-80" placeholder="بحث عن عميلة، موعد، أو أخصائية..." type="text"/></div><div class="flex items-center gap-4 shrink-0"><button aria-label="الإشعارات" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="h-5 w-[1px] bg-surface-container-highest"></div><div class="flex items-center gap-2"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH5MJNZEqgrE6xJNMCRh2E78lh0IVGyy1Z5Wr0qkfOimuwjzUetf-8ty9d2PvCh-p_ZZ1pPnGbpk6NoR4gQ74iTh6_RBi5pm-VG7LdcC-UtxUcsITreGqRnyk7EQLrf1zqxyt_T6FQUiYm5zSb6HD69GSS--iREEhNVgiDMJnYJyeXxYF7hqdysL9YIjWS4tw-L19rioYvKtLgU6OcAdl2OOFyq-qT8zhhJVgJD84_heUH-K_hot02bQ"/><span class="font-body-sm text-body-sm font-medium text-on-surface hidden md:inline">سارة آل سعود</span></div></div></header><main class="relative pt-16 bg-surface min-h-screen px-8 py-8"><div class="flex flex-col w-full space-y-10">
+<!-- Operational Pulse Banner & Executive Actions -->
+<div class="relative overflow-hidden rounded-2xl bg-gradient-to-l from-primary via-primary-container to-surface-container-high p-8 shadow-xl text-on-primary">
+<div class="absolute -left-12 -top-12 w-64 h-64 rounded-full bg-white/10 blur-2xl pointer-events-none"></div>
+<div class="absolute right-1/3 bottom-0 w-80 h-32 rounded-full bg-secondary-fixed/15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+<div class="space-y-2">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span>
+<span class="font-label-sm text-label-sm text-surface tracking-wide">الفرع الرئيسي - الرياض العليا • التشغيل المباشر</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg tracking-tight text-white drop-shadow-sm">غرفة التحكم والعمليات الميدانية</h1>
+<p class="font-body-md text-body-md text-surface-dim max-w-xl">متابعة دقيقة لجلسات الأجنحة الملكية، وإرسال فرق الخدمة المنزلية VIP في كافة أحياء الرياض بالتوقيت الحي.</p>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<button class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-surface text-primary font-title-md text-title-md shadow-md hover:bg-surface-container-low transition-all" onclick="document.getElementById('new-service-modal').classList.remove('hidden')">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+          إضافة باقة / خدمة
+        </button>
+<button class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-on-secondary-fixed text-surface font-title-md text-title-md shadow-md hover:opacity-95 transition-all" onclick="document.getElementById('quick-booking-drawer').classList.remove('hidden')">
+<span class="material-symbols-outlined text-[20px]">flash_on</span>
+          حجز فوري (Walk-in)
+        </button>
+</div>
+</div>
+</div>
+<!-- KPI Metrics Quartet -->
+<section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+<!-- Metric 1: Appointments -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container-lowest p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-tertiary">مواعيد اليوم الكلية</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">28</span>
+<span class="font-label-sm text-label-sm text-tertiary">حجز مؤكد</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">calendar_today</span>
+</div>
+</div>
+<div class="mt-4 pt-4 bg-surface-container-low rounded-xl p-3 flex items-center justify-between font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1.5 text-primary font-medium">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+          18 في الصالون
+        </span>
+<span class="inline-flex items-center gap-1.5 text-secondary font-medium">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>
+          10 خدمة منزلية VIP
+        </span>
+</div>
+</div>
+<!-- Metric 2: Revenue -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container-lowest p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-tertiary">إجمالي إيراد اليوم</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">24,850</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">ر.س</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+</div>
+<div class="mt-4 pt-4 flex items-center gap-2 text-on-surface font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-semibold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+          +18%
+        </span>
+<span class="text-tertiary font-body-sm text-body-sm">مقارنة بمتوسط نفس اليوم الأسبوع الماضي</span>
+</div>
+</div>
+<!-- Metric 3: Active Staff -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container-lowest p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-tertiary">طاقم الخبيرات في الوردية</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">12</span>
+<span class="font-label-sm text-label-sm text-tertiary">من أصل 14 أخصائية</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">supervised_user_circle</span>
+</div>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+<span>7 في أجنحة الصالون</span>
+<span>•</span>
+<span class="text-secondary font-semibold">5 في مهام خارجية نشطة</span>
+</div>
+</div>
+<!-- Metric 4: Satisfaction -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container-lowest p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-tertiary">معدل رضا العميلات VIP</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">98.4%</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">تقييم استثنائي</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="mt-4 pt-4 flex items-center gap-2">
+<div class="flex-1 h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-secondary-fixed-dim rounded-full" style="width: 98.4%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary">142 تقييم</span>
+</div>
+</div>
+</section>
+<!-- Interactive Dual Schedule & Timetable View -->
+<section class="space-y-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">جدول العمل الميداني والداخلي</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">تزامن الحجوزات والفرق الخارجية (10:00 ص - 10:00 م)</h2>
+</div>
+<!-- Controls & Filter Bar -->
+<div class="flex flex-wrap items-center gap-3">
+<div class="inline-flex p-1 rounded-full bg-surface-container-high">
+<button class="px-4 py-1.5 rounded-full bg-surface text-on-surface font-label-md text-label-md shadow-sm transition-all" id="view-all-btn">الكل (12)</button>
+<button class="px-4 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" id="view-salon-btn">الصالون فقط</button>
+<button class="px-4 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" id="view-home-btn">الخدمة المنزلية 🚗</button>
+</div>
+<div class="relative">
+<select class="appearance-none bg-surface-container-lowest text-on-surface font-body-sm text-body-sm px-4 py-2.5 pl-9 rounded-full shadow-sm focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer">
+<option>جميع الخبيرات المتاحين</option>
+<option>الخبيرة منى (شعر)</option>
+<option>الأخصائية سارة (عناية وبشرة)</option>
+<option>الأرتيست ريم (مكياج وعرائس)</option>
+<option>الخبيرة ليلى (مساج وسبا)</option>
+</select>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[18px] text-tertiary pointer-events-none">expand_more</span>
+</div>
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm shadow-sm hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px] text-primary">calendar_month</span>
+          اليوم، 24 أكتوبر
+        </button>
+</div>
+</div>
+<!-- Alert Bar: Conflict and Dispatch Notification -->
+<div class="rounded-xl bg-error-container/60 p-4 flex flex-col md:flex-row md:items-center justify-between gap-3 text-on-error-container">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-error text-[22px]">warning</span>
+<p class="font-body-sm text-body-sm">
+<strong>تنبيه مسار الحركة:</strong> موعد الخدمة المنزلية للأخصائية سارة في حي حطين (02:00 م) يتقارب مع وقت الازدحام المروري على طريق الملك سلمان (+15 دقيقة تأخير متوقع).
+        </p>
+</div>
+<button class="shrink-0 self-start md:self-auto px-3 py-1 rounded-full bg-surface text-error font-label-sm text-label-sm shadow-sm hover:bg-error-container transition-all">
+        إعادة تعيين السائقة المرافقة
+      </button>
+</div>
+<!-- Schedule Canvas -->
+<div class="rounded-2xl bg-surface-container-lowest shadow-sm overflow-x-auto">
+<div class="min-w-[960px] p-6">
+<!-- Timeline Header Axis -->
+<div class="grid grid-cols-12 gap-3 pb-4 mb-4 bg-surface-container-low/70 rounded-xl px-4 py-2 text-center text-tertiary font-label-sm text-label-sm">
+<div class="col-span-3 text-right font-title-md text-title-md text-on-surface">الأخصائية والمسار</div>
+<div class="col-span-1">10:00 ص</div>
+<div class="col-span-1">11:30 ص</div>
+<div class="col-span-1">01:00 م</div>
+<div class="col-span-1">02:30 م</div>
+<div class="col-span-1">04:00 م</div>
+<div class="col-span-1">05:30 م</div>
+<div class="col-span-1">07:00 م</div>
+<div class="col-span-1">08:30 م</div>
+<div class="col-span-1">10:00 م</div>
+</div>
+<!-- Specialist Row 1: Mona (Salon Expert) -->
+<div class="grid grid-cols-12 gap-3 items-center py-4 rounded-xl hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-3 flex items-center gap-3 pr-2">
+<div class="relative">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A portrait of Mona, an elegant senior Saudi hair stylist in her 30s wearing a modern modest black and rose gold salon apron in a serene Riyadh luxury salon, soft natural warm light, photorealistic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl6ZsYUUs98x48kygQ-h4bJ37aFfsevsG1JyTD_4IiTU-ZMdxr48gjkrwrqTgfU0UUZ7oCxwVudyK6buPkLxUYGtOPxvYSLi7aOu573WsgPFW-9FWg_wO71wR2TwT6BGWTgYKZAX2DkqUzHAz-AscbljxPJ_EqcemEsUVQslwMey_CRJOCDOkEfCoGlZUJVFiblSKHkkbT3ryocbGDxhiTtYYbxE7BVorNG5Zt3frgZ_GBp0qPybwTOw"/>
+<span class="absolute bottom-0 left-0 w-3 h-3 rounded-full bg-emerald-500 ring-2 ring-surface"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">الخبيرة منى العتيبي</span>
+<span class="font-label-sm text-label-sm text-primary">تصفيف وعلاج الشعر • صالون</span>
+</div>
+</div>
+<div class="col-span-9 relative h-20 bg-surface-container rounded-xl flex items-center px-2 overflow-hidden">
+<!-- Appointment 1 -->
+<div class="absolute right-[4%] w-[26%] h-16 rounded-lg bg-surface-container-high p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">10:30 ص - 12:00 م</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface font-label-sm text-label-sm text-tertiary">جناح 2</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">نورة الشمري - كافيار معالج &amp; سشوار</p>
+</div>
+<!-- Free Gap -->
+<!-- Appointment 2 -->
+<div class="absolute right-[38%] w-[24%] h-16 rounded-lg bg-surface-container-high p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">02:30 م - 04:00 م</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface font-label-sm text-label-sm text-tertiary">جناح 1</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">د. هيفاء القاسم - صبغة ورينساج ملكي</p>
+</div>
+<!-- Appointment 3 -->
+<div class="absolute right-[68%] w-[28%] h-16 rounded-lg bg-surface-container-high p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">06:00 م - 08:00 م</span>
+<span class="px-1.5 py-0.2 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm">VIP Suite</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">الجوهرة آل تركي - جلسة بروتين كشميري</p>
+</div>
+</div>
+</div>
+<!-- Specialist Row 2: Sarah (Home Service VIP Specialist) -->
+<div class="grid grid-cols-12 gap-3 items-center py-4 rounded-xl hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-3 flex items-center gap-3 pr-2">
+<div class="relative">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of Sarah, an expert skincare therapist in chic nude uniform with clinical aesthetic badge in high-end spa aesthetic, Riyadh, warm alabaster lighting, professional look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLLp8lbSlxYvRnyOs7IQaeORfGkc63ZLffaqZFwlPGMGiES0ujSuFH-QiRSK_zHi-_PzezRWS9gtbP-cTVIdyR6SJ06s1lDn47w5K2hb8hx00T6TIt0ltXPeHcPBHwbNsF5DQaYI0_-QaUmT-11SrtuQJRbRXuSKGVpkxYysia7xbQZZcSODtrXHXsyJ4VtXEkTmOKdp_BNYZGgySwHfR2IJw_cBXvpWguIM0TrpGG1FhZD-UhY3qvjQ"/>
+<span class="absolute bottom-0 left-0 w-3 h-3 rounded-full bg-secondary-fixed-dim ring-2 ring-surface"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">الأخصائية سارة الصالح</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">خدمة منزلية فاخرة • عناية وبشرة</span>
+</div>
+</div>
+<div class="col-span-9 relative h-20 bg-surface-container rounded-xl flex items-center px-2 overflow-hidden">
+<!-- Home Service Dispatch 1 -->
+<div class="absolute right-[2%] w-[34%] h-16 rounded-lg bg-secondary-container/90 text-on-secondary-container p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">directions_car</span>
+                  10:00 ص - 12:30 م
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-surface/80 font-label-sm text-label-sm">حي النخيل الغربي</span>
+</div>
+<p class="font-body-sm text-body-sm font-medium truncate">سمو الأميرة ريما - بكج هيدرافيشل منزلي متكامل</p>
+</div>
+<!-- Transit & Conflict Period -->
+<div class="absolute right-[37%] w-[12%] h-14 rounded-lg bg-error-container/80 text-on-error-container p-1.5 flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-[16px] text-error">commute</span>
+<span class="font-label-sm text-label-sm font-semibold">ازدحام طريق</span>
+</div>
+<!-- Home Service Dispatch 2 -->
+<div class="absolute right-[51%] w-[38%] h-16 rounded-lg bg-secondary-container/90 text-on-secondary-container p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">directions_car</span>
+                  02:30 م - 05:30 م
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-surface/80 font-label-sm text-label-sm">حي حطين ديبلوماسي</span>
+</div>
+<p class="font-body-sm text-body-sm font-medium truncate">منيرة السبيعي - باقة الديتوكس الملكي المنزلي</p>
+</div>
+</div>
+</div>
+<!-- Specialist Row 3: Reem (Bridal Makeup Artist) -->
+<div class="grid grid-cols-12 gap-3 items-center py-4 rounded-xl hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-3 flex items-center gap-3 pr-2">
+<div class="relative">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of Reem, a creative bridal makeup artist holding professional brushes in an ultra-luxurious marble studio, gentle champagne aesthetic lighting, editorial fashion style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSZzpy4w06GmQgWtjqp2aeo9GwJk9UM0rrkKK832JnD0XZlZe0rmcb4Jjm_VNpbrnAdvFO8PKXATJuvpQUFwh7z_jOf4NmkcRE0CdZBzmqr0Mk77f3L8lajEP7bDUHCzIv_axl3M207yPSBKb2KXqVC31aToIbzTJF1nzgP6JAQZjFV_W1ONwgu0N71xYNys-NqHwV42R3CBBlHq1wAjXMTzPODDo3GESg2st43i-fNjCm0n7uyIx7Wg"/>
+<span class="absolute bottom-0 left-0 w-3 h-3 rounded-full bg-emerald-500 ring-2 ring-surface"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">الأرتيست ريم الدوسري</span>
+<span class="font-label-sm text-label-sm text-primary">ميك آب ارتيست • العرائس والمناسبات</span>
+</div>
+</div>
+<div class="col-span-9 relative h-20 bg-surface-container rounded-xl flex items-center px-2 overflow-hidden">
+<!-- 3 Hours Blocked Bridal Package -->
+<div class="absolute right-[30%] w-[48%] h-16 rounded-lg bg-surface-tint text-on-primary p-2.5 shadow-md flex flex-col justify-between hover:scale-[1.01] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold flex items-center gap-1.5 text-secondary-fixed">
+<span class="material-symbols-outlined text-[18px]">diamond</span>
+                  03:00 م - 07:00 م (حجز ممتد 4 ساعات)
+                </span>
+<span class="px-2.5 py-0.5 rounded-full bg-white/20 text-white font-label-sm text-label-sm">الجناح الملكي للعروس</span>
+</div>
+<div class="flex items-center justify-between">
+<p class="font-title-md text-title-md font-semibold truncate text-white">باقة العروس الماسية - عهد المنصور</p>
+<span class="font-label-sm text-label-sm text-surface-container-low">شامل التجربة + مرافقة 2 وصيفات</span>
+</div>
+</div>
+<!-- Late Evening Appointment -->
+<div class="absolute right-[80%] w-[18%] h-16 rounded-lg bg-surface-container-high p-2 shadow-sm flex flex-col justify-between hover:scale-[1.02] transition-transform cursor-pointer">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">08:30 م</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">مكياج سهرة ناعم</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Service, Packages & Portfolio Management Section -->
+<section class="space-y-6">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div>
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">كتالوج الخدمات والمحتوى</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">إدارة الخدمات الحالية والباقات الموسمية</h2>
+</div>
+<div class="flex items-center gap-2">
+<div class="flex items-center bg-surface-container-lowest px-3 py-1.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-tertiary ml-2">filter_alt</span>
+<button class="px-3 py-1 rounded-full text-label-sm font-label-sm bg-primary text-on-primary">جميع التصنيفات</button>
+<button class="px-3 py-1 rounded-full text-label-sm font-label-sm text-on-surface hover:bg-surface-container">شعر</button>
+<button class="px-3 py-1 rounded-full text-label-sm font-label-sm text-on-surface hover:bg-surface-container">بشرة</button>
+<button class="px-3 py-1 rounded-full text-label-sm font-label-sm text-on-surface hover:bg-surface-container">عرائس</button>
+</div>
+</div>
+</div>
+<!-- Management Table -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-right font-body-md text-body-md text-on-surface">
+<thead class="bg-surface-container-low text-tertiary font-label-md text-label-md uppercase">
+<tr>
+<th class="px-6 py-4">اسم الخدمة والباقة</th>
+<th class="px-4 py-4">التصنيف</th>
+<th class="px-4 py-4">السعر</th>
+<th class="px-4 py-4">المدة</th>
+<th class="px-4 py-4">نوع التقديم</th>
+<th class="px-4 py-4">الحالة</th>
+<th class="px-6 py-4 text-center">إجراءات</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-high/60">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-6 py-4 flex items-center gap-4">
+<img class="w-14 h-14 rounded-xl object-cover shadow-sm" data-alt="Close up of luxury hair spa mask treatment with gold flakes applied to sleek glossy hair in a serene beige marble salon wash basin, high aesthetic, editorial photograph" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAz9bNahTHRuy-LZtUbXZQGqmi6k4UUc3mdqbfI38xTbOSgfZT3ebgtrSAkX6BJsBtdRaIS3beuPNDr6vZWDje-tFiC6XwnvsSWKga4jq-hRHu5XNV5lC_tZQ2mUdGa0LbQVeu3ZU9reHUIkuV2Hh94aoBD_esiUqGZzJTw3uhLdyYL2RQCUNksBSU_tPx6NsOKMRcBzIocj7fPivfkQ_NM3WiURMOF-t2yAqsxr8yX65cjClmbHluoRg"/>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">جلسة الكافيار الملكي لترميم الشعر</h4>
+<p class="font-body-sm text-body-sm text-tertiary">علاج ألياف الشعر بمستخلص الكافيار الأسود وزيت الأرغان</p>
+</div>
+</td>
+<td class="px-4 py-4">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">علاجات الشعر</span>
+</td>
+<td class="px-4 py-4 font-title-md text-title-md font-semibold text-primary">
+                1,250 <span class="font-label-sm text-label-sm text-tertiary">ر.س</span>
+</td>
+<td class="px-4 py-4 text-on-surface-variant font-label-md text-label-md">
+                90 دقيقة
+              </td>
+<td class="px-4 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-primary">storefront</span>
+                  في الصالون فقط
+                </span>
+</td>
+<td class="px-4 py-4">
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+<span class="mr-2 font-label-sm text-label-sm text-on-surface">نشط</span>
+</label>
+</td>
+<td class="px-6 py-4 text-center">
+<div class="inline-flex items-center gap-2">
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors" title="تعديل">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-error-container hover:text-error flex items-center justify-center text-on-surface transition-colors" title="حذف">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-6 py-4 flex items-center gap-4">
+<img class="w-14 h-14 rounded-xl object-cover shadow-sm" data-alt="Facial skincare with hydrafacial tip emitting gentle glow on peaceful woman's glowing cheek, pristine white aesthetic with rose gold accents, serene clinic atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrhjtTNfggcFX9LJVXle5erx_f3OjPCHw29nwDCm0Td6iNW15jKhACxAF0X3ns_05_5zgr4xSfiikqFjMeqy5U_9wqWZaVXFQrYKXmzk_zUV2yApuGdUZN8ZLldFzEbEeOFZ3FYjZuucoiTKgi6kL4jm3hnYxTqCl6dNvjOFQlmwNILJ9RpfAF63ToRES69AG-eegzZDq0mIQvKQchdCGrJo8bksGtlbBDTgCNFb8rxZDOyfwSVfzQgg"/>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">هايدرافيشل الألماسي المتكامل (Home VIP)</h4>
+<p class="font-body-sm text-body-sm text-tertiary">تنظيف عميق، تقشير ماسي، وسيروم النضارة الفورية</p>
+</div>
+</td>
+<td class="px-4 py-4">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">عناية بالبشرة</span>
+</td>
+<td class="px-4 py-4 font-title-md text-title-md font-semibold text-primary">
+                1,800 <span class="font-label-sm text-label-sm text-tertiary">ر.س</span>
+</td>
+<td class="px-4 py-4 text-on-surface-variant font-label-md text-label-md">
+                75 دقيقة
+              </td>
+<td class="px-4 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">directions_car</span>
+                  كلاهما (صالون + منزلي)
+                </span>
+</td>
+<td class="px-4 py-4">
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+<span class="mr-2 font-label-sm text-label-sm text-on-surface">نشط</span>
+</label>
+</td>
+<td class="px-6 py-4 text-center">
+<div class="inline-flex items-center gap-2">
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors" title="تعديل">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-error-container hover:text-error flex items-center justify-center text-on-surface transition-colors" title="حذف">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-6 py-4 flex items-center gap-4">
+<img class="w-14 h-14 rounded-xl object-cover shadow-sm" data-alt="Luxury bridal beauty preparations in suite, elegant bridal veil, cosmetic palette of nude and warm golden tones, crystal perfume bottles, quiet luxury Saudi wedding morning" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQypgDLAHPC1uOrcRC-tDkNJM5n2XxKJYs-7NxZjC4KZnp5Slk215IGYes4uoPIiSho_IJ-44A_CHPrsELj_YPuy3Kv_7UBXmFnYkezUjroN5IFwOa8IcKaqI4hNIjrGP7bDonGb2r5PdMS9q9UaRiDSQhkGX3H03YAldOtyzUSusxyKqJTAdSrIgTQks3qe4Ln5h3UXX0gMT-jzep7_M_xFCmJBkXR5rnHfdd2ZeEasiZG0432L1BjQ"/>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">باقة العروس الماسية الشاملة</h4>
+<p class="font-body-sm text-body-sm text-tertiary">مكياج سينمائي، تسريحة ملكية، منكير وبديكير سبا متكامل</p>
+</div>
+</td>
+<td class="px-4 py-4">
+<span class="px-3 py-1 rounded-full bg-secondary-container/60 text-on-secondary-container font-label-sm text-label-sm font-semibold">باقات العرائس VIP</span>
+</td>
+<td class="px-4 py-4 font-title-md text-title-md font-semibold text-primary">
+                6,500 <span class="font-label-sm text-label-sm text-tertiary">ر.س</span>
+</td>
+<td class="px-4 py-4 text-on-surface-variant font-label-md text-label-md">
+                240 دقيقة
+              </td>
+<td class="px-4 py-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-secondary">star</span>
+                  جناح العروس VIP
+                </span>
+</td>
+<td class="px-4 py-4">
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+<span class="mr-2 font-label-sm text-label-sm text-on-surface">نشط</span>
+</label>
+</td>
+<td class="px-6 py-4 text-center">
+<div class="inline-flex items-center gap-2">
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors" title="تعديل">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-error-container hover:text-error flex items-center justify-center text-on-surface transition-colors" title="حذف">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Gallery & Portfolio Manager + Live Activity Feed Split Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Gallery & Real Salon Works Drag & Drop -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-2xl p-6 shadow-sm space-y-6">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">معرض الأعمال وتوثيق النتائج الحية</h3>
+<p class="font-body-sm text-body-sm text-tertiary">رفع صور إطلالات العميلات لعرضها في ملفات التسويق والموقع الرئيسي</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[28px]">photo_library</span>
+</div>
+<!-- Drag & Drop Uploader Area -->
+<div class="rounded-xl bg-surface-container-low p-8 text-center cursor-pointer hover:bg-surface-container transition-all">
+<div class="w-14 h-14 mx-auto rounded-full bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm mb-3">
+<span class="material-symbols-outlined text-[28px]">cloud_upload</span>
+</div>
+<p class="font-title-md text-title-md text-on-surface">اسحبي الصور هنا أو اضغطي للتصفح</p>
+<p class="font-body-sm text-body-sm text-tertiary mt-1">يدعم JPG، PNG، أو HEIC بجودة عالية (الحد الأقصى 15 ميجابايت)</p>
+<div class="mt-4 flex flex-wrap justify-center gap-2">
+<span class="px-3 py-1 rounded-full bg-surface text-tertiary font-label-sm text-label-sm">#تسريحات_عرائس</span>
+<span class="px-3 py-1 rounded-full bg-surface text-tertiary font-label-sm text-label-sm">#صبغات_بالياج</span>
+<span class="px-3 py-1 rounded-full bg-surface text-tertiary font-label-sm text-label-sm">#أظافر_جل_آرت</span>
+</div>
+</div>
+<!-- Recently Uploaded Showcase Grid -->
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">أحدث الصور المعتمدة هذا الأسبوع</span>
+<div class="grid grid-cols-3 gap-3">
+<div class="relative group rounded-xl overflow-hidden aspect-square bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Artistic soft waves bridal hairstyle from back view with delicate freshwater pearl hairpins in soft focus, warm studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt_0v_IBQ5cv7y6hM8gtf510KMeEgtCyVAeY9mHabOEMO06p5jNcmSU-WoLvoUNKZrRWkfTZ0Zctwy9azdmX8GBSdmjyC5kB65GLgVfQ-Bhb5uyiChiHQ3L5MN_JbzEz2LCoJqzC-umzdPGfs2YOvG6dxOHJNSYz4d2y8xu0iHzaUB5ll6ivW_llwR5DOFOXXl8S3U_fIHoUoF1HzDcwuK0DqIfecbhxrw1tHmSto4sezJdCPsq06rLg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-2 flex items-end justify-between text-white">
+<span class="font-label-sm text-label-sm">شعر وتسريحة</span>
+<button class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-[14px]">visibility</span></button>
+</div>
+</div>
+<div class="relative group rounded-xl overflow-hidden aspect-square bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Glamorous warm tones smokey eye makeup look with luminous skin, Saudi fashion model, luxury aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmEmJ00BVL1QT2XY26h-r2yPVjPYyG72nOajTnbk-BeFJuv9TS18G2nj362Bts1Rj1ce1fzV_AyfT_n5TLxrXNrd8uOuVIxlYp_HWRKGxbYZMIV_-9ZAiNDdUP6y_ERBSal9Nc9YXxmS2UgRoFjj9dEQ7UvnBJp5d4FfE3SjMyGkYlVO8SgIqT6nSYtnlLSWYvT8sJK4WQJnA3moqRaGOlgCLyV4qTC5xbkpm7e37QNgXbqf5xpWcvmQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-2 flex items-end justify-between text-white">
+<span class="font-label-sm text-label-sm">مكياج سهرة</span>
+<button class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-[14px]">visibility</span></button>
+</div>
+</div>
+<div class="relative group rounded-xl overflow-hidden aspect-square bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Exquisite French ombre manicure with micro gold leaf details held against sheer linen fabric, macro beauty detail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkt-yxWLa06cYPhiBVmG7I7JraOcwOngEb9oUIfoGn3fCbeWVwO6Ttqz7d6rxOk0j0O07yAa_9KPUcImSnZR0VQGgwJPidEt4qoer3u3bZ7REmPaM5em3SXA2XDyuidgRGW-Q4bCxZnV6p-H6_e0L-KXjq3fJz_y2VSb_h2cWoFl-O1n771A2jhi2BnM4hJQab3sw4d7Uk5Fgvj9hkXCIs3pYx6xbQU4BW1akULFI-VHgxB0AtlM-KWQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-2 flex items-end justify-between text-white">
+<span class="font-label-sm text-label-sm">عناية أظافر</span>
+<button class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white"><span class="material-symbols-outlined text-[14px]">visibility</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Activity & Fleet Status Column -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-2xl p-6 shadow-sm space-y-6">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">حركة الأسطول والطلبات الفورية</h3>
+<p class="font-body-sm text-body-sm text-tertiary">تتبع السيارات وتحديثات الاستقبال المباشرة</p>
+</div>
+<span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+</div>
+<div class="space-y-4">
+<!-- Live item 1 -->
+<div class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/50 flex items-center justify-center text-secondary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h5 class="font-title-md text-title-md text-on-surface truncate">سيارة الدعم VIP (رقم 3)</h5>
+<span class="font-label-sm text-label-sm text-tertiary">منذ 4 دقائق</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">وصلت الخبيرة سارة لموقع العميلة في مجمع الفهد السكني.</p>
+<div class="mt-2 inline-flex items-center gap-1.5 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+              بدء جلسة البشرة المنزلية
+            </div>
+</div>
+</div>
+<!-- Live item 2 -->
+<div class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/40 flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h5 class="font-title-md text-title-md text-on-surface truncate">إتمام دفعة إلكترونية</h5>
+<span class="font-label-sm text-label-sm text-tertiary">منذ 18 دقيقة</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">تم سداد 3,200 ر.س عبر Apple Pay لباقة ما بعد العطلة - جناح 3.</p>
+</div>
+</div>
+<!-- Live item 3 -->
+<div class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-tertiary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">loyalty</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h5 class="font-title-md text-title-md text-on-surface truncate">ترقية عميلة إلى النخبة الفضية</h5>
+<span class="font-label-sm text-label-sm text-tertiary">منذ 42 دقيقة</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">العميلة رزان السديري أكملت 10 جلسات خلال العام الجاري.</p>
+</div>
+</div>
+</div>
+<!-- Quick Room Availability Pill Matrix -->
+<div class="pt-2">
+<span class="font-label-md text-label-md text-tertiary block mb-3">حالة أجنحة الاستقبال الآن:</span>
+<div class="grid grid-cols-2 gap-2 text-label-sm font-label-sm">
+<div class="px-3 py-2 rounded-xl bg-surface flex items-center justify-between shadow-xs">
+<span>جناح الكاميليا (شعر)</span>
+<span class="text-error font-medium">مشغول</span>
+</div>
+<div class="px-3 py-2 rounded-xl bg-surface flex items-center justify-between shadow-xs">
+<span>جناح اللوتس (بشرة)</span>
+<span class="text-emerald-600 font-medium">شاغر</span>
+</div>
+<div class="px-3 py-2 rounded-xl bg-surface flex items-center justify-between shadow-xs">
+<span>جناح الأوركيد (عرائس)</span>
+<span class="text-error font-medium">مشغول</span>
+</div>
+<div class="px-3 py-2 rounded-xl bg-surface flex items-center justify-between shadow-xs">
+<span>غرفة المساج والسبا</span>
+<span class="text-emerald-600 font-medium">شاغر</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MODAL: Add New Service / Package -->
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm" id="new-service-modal">
+<div class="relative w-full max-w-2xl bg-surface-container-lowest rounded-3xl shadow-2xl p-8 overflow-y-auto max-h-[921px]">
+<div class="flex items-center justify-between pb-4">
+<div>
+<span class="font-label-md text-label-md text-primary font-bold">نموذج الإضافة السريع</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">إضافة خدمة أو باقة جديدة للصالون</h3>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" onclick="document.getElementById('new-service-modal').classList.add('hidden')">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="space-y-5 mt-4" onsubmit="event.preventDefault(); document.getElementById('new-service-modal').classList.add('hidden');">
+<!-- Service Name -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">اسم الخدمة أو الباقة (عربي / إنجليزي)</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary" placeholder="مثال: جلسة التقشير الكريستالي بالذهب الوردي" type="text"/>
+</div>
+<!-- Grid 2-col: Category & Price -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">التصنيف الأساسي</label>
+<select class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer">
+<option>عناية بالشعر وترميم</option>
+<option>نضارة وعناية بالبشرة</option>
+<option>مكياج وإطلالات سهرة</option>
+<option>باقات العرائس الملكية</option>
+<option>أظافر وسبا</option>
+</select>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">السعر الرسمي (ر.س)</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary" placeholder="مثال: 950" type="number"/>
+</div>
+</div>
+<!-- Duration & Offering Type -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">المدة التقديرية للجلسة</label>
+<select class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer">
+<option>45 دقيقة</option>
+<option>60 دقيقة (ساعة كاملة)</option>
+<option>90 دقيقة</option>
+<option>120 دقيقة (ساعتان)</option>
+<option>180 دقيقة (3 ساعات - عرائس)</option>
+</select>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">مكان تقديم الخدمة</label>
+<div class="grid grid-cols-3 gap-2 pt-1 font-label-sm text-label-sm">
+<label class="p-2.5 rounded-xl bg-surface-container-low text-center cursor-pointer flex flex-col items-center gap-1 hover:bg-surface-container">
+<input checked="" class="accent-primary" name="loc-type" type="radio"/>
+                صالون
+              </label>
+<label class="p-2.5 rounded-xl bg-surface-container-low text-center cursor-pointer flex flex-col items-center gap-1 hover:bg-surface-container">
+<input class="accent-primary" name="loc-type" type="radio"/>
+                منزلي
+              </label>
+<label class="p-2.5 rounded-xl bg-surface-container-low text-center cursor-pointer flex flex-col items-center gap-1 hover:bg-surface-container">
+<input class="accent-primary" name="loc-type" type="radio"/>
+                كلاهما
+              </label>
+</div>
+</div>
+</div>
+<!-- Service Description -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">وصف الخدمة والمواد المستخدمة</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary resize-none" placeholder="اكتبي تفاصيل الجلسة والمنتجات المستخدمة ونوع البشرة أو الشعر المناسب..." rows="3"></textarea>
+</div>
+<!-- Image Uploader Thumbnail Area -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-on-surface font-semibold">صورة الغلاف للباقة</label>
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center gap-4">
+<div class="w-16 h-16 rounded-xl bg-surface flex items-center justify-center text-tertiary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">add_photo_alternate</span>
+</div>
+<div>
+<p class="font-title-md text-title-md text-on-surface">ارفعي صورة جمالية توضيحية</p>
+<p class="font-label-sm text-label-sm text-tertiary">مقاس موصى به: 800×800 بكسل</p>
+</div>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-end gap-3 pt-4">
+<button class="px-5 py-2.5 rounded-full text-on-surface-variant font-title-md text-title-md hover:bg-surface-container transition-colors" onclick="document.getElementById('new-service-modal').classList.add('hidden')" type="button">
+            إلغاء
+          </button>
+<button class="px-6 py-2.5 rounded-full bg-primary text-on-primary font-title-md text-title-md shadow-md hover:opacity-95 transition-all" type="submit">
+            حفظ الخدمة ونشرها
+          </button>
+</div>
+</form>
+</div>
+</div>
+<!-- DRAWER: Walk-in Quick Appointment -->
+<div class="hidden fixed inset-0 z-50 flex justify-start bg-black/40 backdrop-blur-sm" id="quick-booking-drawer">
+<div class="w-full max-w-md bg-surface-container-lowest h-full shadow-2xl p-6 overflow-y-auto flex flex-col justify-between">
+<div class="space-y-6">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary-fixed animate-ping"></span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">تسجيل حضور فوري (Walk-in)</h3>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" onclick="document.getElementById('quick-booking-drawer').classList.add('hidden')">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="space-y-4">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">اسم العميلة</label>
+<input class="w-full px-4 py-2.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary" placeholder="الاسم الكريم أو رقم الجوال..." type="text"/>
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">اختيار الجناح المتاح حالياً</label>
+<select class="w-full px-4 py-2.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary">
+<option>جناح اللوتس (متاح فوراً - عناية وبشرة)</option>
+<option>غرفة المساج والسبا الملكي (متاح فوراً)</option>
+<option>كرسي تصفيف 4 (الخبيرة منى - بعد 15 دقيقة)</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">الخدمة المطلوبة</label>
+<select class="w-full px-4 py-2.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary">
+<option>سشوار وويفي إطلالة مسائية (250 ر.س)</option>
+<option>جلسة تقشير وتوريد ألماسي (650 ر.س)</option>
+<option>مساج استرخائي عضلي (450 ر.س)</option>
+<option>بديكير ومنكير كلاسيكي (200 ر.س)</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">ملاحظات الضيافة والترحيب</label>
+<input class="w-full px-4 py-2.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary" placeholder="قهوة سعودية مع معمول تمر، شاي ياسمين..." type="text"/>
+</div>
+</form>
+</div>
+<div class="pt-6">
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-title-md text-title-md shadow-lg hover:opacity-95 transition-all flex items-center justify-center gap-2" onclick="document.getElementById('quick-booking-drawer').classList.add('hidden')">
+<span class="material-symbols-outlined text-[20px]">door_open</span>
+          بدء الجلسة فوراً في الجناح
+        </button>
+</div>
+</div>
+</div>
+</div></main></div></body></html>
